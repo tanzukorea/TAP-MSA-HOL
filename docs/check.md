@@ -37,7 +37,7 @@ C 드라이브 아래에 Kube라는 디렉토리를 생성하고, 다운받은 K
 
 ### 4. Tanzu CLI 및 Kubectl 설치
 Windows 키를 눌러 Advanced System Setting을 검색합니다.<br/>
-![](../images/env_set_01.png)
+![](../images/env_set_01.png){: width="30%" height="30%"}
 
 창 맨 아래의 Environment Variables를 클릭합니다.<br/>
 ![](../images/env_set_02.png)
