@@ -6,7 +6,7 @@
 * VSCode IDE 및 TAP용 Plugin
 * Tanzu Kubernetes Cluster
 
-설치되지 않은 구성요소가 있을 경우, [환경 구성](docs/configure.md) 으로 이동합니다.
+설치되지 않은 구성요소가 있을 경우, [환경 구성](./configure.md) 으로 이동합니다.
 
 ***참고 : 본 Lab은 Windows OS 기준으로 진행됩니다.**
 
