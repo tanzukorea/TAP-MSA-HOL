@@ -58,7 +58,7 @@ tanzu apps workload create tanzu-java-web-app-s1 \
 tanzu apps workload list
 ```
 
-> 방금 생성한 "tanzu-java-web-app-<span style="color: red">s1</span>" 워크로드 조회 <span style="background-color: #fff5b1">(워크로드 명 확인)</span>
+> 방금 생성한 "tanzu-java-web-app-[#f03c15](s1)" 워크로드 조회 <span style="background-color: #fff5b1">(워크로드 명 확인)</span>
 ```cmd
 tanzu apps workload get tanzu-java-web-app-s1
 ```
