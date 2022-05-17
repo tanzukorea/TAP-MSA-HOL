@@ -98,3 +98,7 @@ kubectl get pod
 ```cmd
 tanzu apps workload delete tanzu-java-web-app-s1
 ```
+
+> 기타 Tanzu CLI 참조
+
+https://docs.vmware.com/en/Tanzu-Application-Platform/1.1/tap/GUID-cli-plugins-apps-command-reference.html
