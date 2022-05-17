@@ -74,6 +74,9 @@ kubectl get pod
 빌드 pod 안에서 구동되는 여러 컨테이너들이 순차적으로 작업을 수행하게 되고, 이 작업이 완료되기까지 약 5~10분 정도 소요됩니다. 
 
 빌드가 완료되고 나면 컨테이너가 생성되는데, 워크로드가 생성되는 일련의 과정들에 대한 로그 조회는 다음과 같은 커맨드로 확인 가능합니다.
+```cmd
+tanzu apps workload tail tanzu-java-web-app-s1
+```
 ![](../images/tap-06.png)
 
 
