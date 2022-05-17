@@ -3,7 +3,7 @@
 본 과정에서는 TAP (Tanzu Application Platform)를 이용하여 쉽게 애플리케이션을 배포하는 방법에 대해 학습합니다.
 원활한 실습을 위하여 사용자 별로 생성할 애플리케이션 명은 다음과 같이 명명합니다. 붉은색으로 되어 있는 부분을 자신의 번호에 맞게 수정합니다.
 
-애플리케이션 명: tanzu-java-web-app-<span style="color: red">s1</span>
+애플리케이션 명: tanzu-java-web-app-s1
 
 ### 1. 워크로드 파일 생성
 다음과 같이 2가지 방법으로 TAP를 이용하여 워크로드를 생성할 수 있습니다.
@@ -11,7 +11,7 @@
 * workload 파일을 이용하여 생성
 
 여기서는 workload 파일을 작성하여 워크로드를 생성하는 방법으로 랩을 진행합니다.
-앱 소스는 git에서 가져온다고 가정하고, 다음과 같이 workload.yaml 파일을 생성합니다. <span style="background-color: #fff5b1">실습생들끼리 워크로드가 섞이지 않도록 워크로드 명을 주의해서 작성합니다.</span>
+앱 소스는 git에서 가져온다고 가정하고, 다음과 같이 workload.yaml 파일을 생성합니다. 실습생들끼리 워크로드가 섞이지 않도록 워크로드 명을 주의해서 작성합니다.
 
 ```yaml
 apiVersion: carto.run/v1alpha1
@@ -36,7 +36,7 @@ spec:
 tanzu apps workload apply -f workload.yaml
 ```
 
-> 워크로드를 CLI를 이용해서 생성하고 싶은 경우 아래와 같은 명령어를 사용하시면 됩니다. 아래 명령어는 위에서 작성한 workload.yaml 파일을 실행했을 때와 동일한 앱을 생성하는 명령어 입니다. <span style="background-color: #fff5b1">(워크로드 명 확인)</span>
+> 워크로드를 CLI를 이용해서 생성하고 싶은 경우 아래와 같은 명령어를 사용하시면 됩니다. 아래 명령어는 위에서 작성한 workload.yaml 파일을 실행했을 때와 동일한 앱을 생성하는 명령어 입니다. (워크로드 명 확인)
 
 ```cmd
 tanzu apps workload create tanzu-java-web-app-s1 \
@@ -58,7 +58,7 @@ tanzu apps workload create tanzu-java-web-app-s1 \
 tanzu apps workload list
 ```
 
-> 방금 생성한 "tanzu-java-web-app-[#f03c15](s1)" 워크로드 조회 <span style="background-color: #fff5b1">(워크로드 명 확인)</span>
+> 방금 생성한 "tanzu-java-web-app-s1" 워크로드 조회 (워크로드 명 확인)
 ```cmd
 tanzu apps workload get tanzu-java-web-app-s1
 ```
@@ -82,7 +82,7 @@ kubectl get pod
 
 이제 앱을 호출해 보도록 하겠습니다.
 
-URL: http://tanzu-java-web-app-<span style="color: red">s1</span>.default.tap.tanzukorea.xyz/
+URL: http://tanzu-java-web-app-s1.default.tap.tanzukorea.xyz/
 
 웹페이지는 아래와 같이 나타나게 됩니다.
 ![](../images/tap-04.png)
