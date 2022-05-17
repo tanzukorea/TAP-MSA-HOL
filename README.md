@@ -23,7 +23,7 @@
 * SSH Terminal (windows Putty, macOS Terminal 등)
 
 ## Hands-On 순서
-0. [실습 환경 체크](docs/check.md)
+0. [실습 환경 체크](docs/check.md) 및 (환경 구성)(docs/configure.md)
 1. TAP 개요 및 앱 배포
    * [TAP를 이용해서 APP 배포하기](docs/deploy-with-cli.md)
    * [TAP GUI에서 배포된 워크로드 확인하기](docs/gui.md)
@@ -34,5 +34,3 @@
 3. MSA를 위한 아키텍처
 4. [API Gateway 연동](docs/api-gw.md)
 5. Supply Chain 개요 및 [파이프라인 추가](docs/scc.md)
-
-
