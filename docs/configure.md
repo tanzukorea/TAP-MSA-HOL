@@ -82,13 +82,13 @@ tanzu plugin list
 다운받은 파일 중 VSCodeUserSetup-x64-1.67.1을 실행합니다. <br/>
 Setup 경고창이 나오면 OK를 클릭합니다 <br/>
 
-I accept the agreement 클릭 후 Next로 이동합니다.
+I accept the agreement 클릭 후 Next로 이동합니다.<br/>
 <img src="../images/env_ide_01.png" width="50%" height="50%" />
 
-설치할 위치를 선택하고 Next로 이동합니다. 예시에서는 default 위치를 사용하겠습니다.
+설치할 위치를 선택하고 Next로 이동합니다. 예시에서는 default 위치를 사용하겠습니다.<br/>
 <img src="../images/env_ide_02.png" width="50%" height="50%" />
 
-이후 Install 버튼 전까지 Next를 클릭하고, 마지막으로 Install을 클릭합니다.
+이후 Install 버튼 전까지 Next를 클릭하고, 마지막으로 Install을 클릭합니다.<br/>
 <img src="../images/env_ide_03.png" width="50%" height="50%" />
 
 VSCode를 열어 설치가 완료되었음을 확인합니다. 다음 단계 진행을 위해 VSCode를 종료하지 않습니다. <br/> <br/>
