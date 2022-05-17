@@ -22,7 +22,6 @@ metadata:
   labels:
     app.kubernetes.io/part-of: tanzu-java-web-app-s1
     apps.tanzu.vmware.com/workload-type: web
-    apps.tanzu.vmware.com/has-tests: false
 
 spec:
   source:
