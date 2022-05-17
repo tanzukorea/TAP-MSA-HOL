@@ -5,6 +5,7 @@
 * Tanzu CLI
 * kubectl CLI
 * VSCode IDE 및 TAP용 Plugin
+* Tanzu Kubernetes Cluster
 
 ***참고 : 본 Lab은 Windows OS 기준으로 진행됩니다.**
 
@@ -74,7 +75,7 @@ tanzu plugin list
 ```
 ![](../images/env_set_cli_confirm.png)
 
- <br/>
+<br/>
 
 ### 5. VSCode IDE 및 TAP용 Plugin 설치
 
@@ -108,5 +109,12 @@ Tanzu Developer Tools이 설치되었는지 확인합니다.
 <img src="../images/env_extension_04.png"/>
 
 <br/><br/>
+
+
+### 6. Tanzu Kubernetes Cluster 설치
+To Be Updated
+
+<br/> <br/>
+
 환경 구성 Lab을 성공적으로 마치셨습니다.
 
