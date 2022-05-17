@@ -74,14 +74,38 @@ tanzu plugin list
 ```
 ![](../images/env_set_cli_confirm.png)
 
+ <br/>
 
 ### 5. VSCode IDE 및 TAP용 Plugin 설치
 
 #### 1) VSCode IDE 설치
+다운받은 파일 중 VSCodeUserSetup-x64-1.67.1을 실행합니다. <br/>
+Setup 경고창이 나오면 OK를 클릭합니다 <br/>
+
+I accept the agreement 클릭 후 Next로 이동합니다.
+<img src="../images/env_ide_01.png" width="50%" height="50%" />
+
+설치할 위치를 선택하고 Next로 이동합니다. 예시에서는 default 위치를 사용하겠습니다.
+<img src="../images/env_ide_02.png" width="50%" height="50%" />
+
+이후 Install 버튼 전까지 Next를 클릭하고, 마지막으로 Install을 클릭합니다.
+<img src="../images/env_ide_03.png" width="50%" height="50%" />
+
+VSCode를 열어 설치가 완료되었음을 확인합니다. 다음 단계 진행을 위해 VSCode를 종료하지 않습니다. <br/> <br/>
 
 
 #### 2) TAP용 Plugin 설치
+VSCode에서 좌측 사이드바 하단의 Extension 버튼을 클릭합니다.
+<img src="../images/env_extension_01.png"/>
 
+오른쪽 점 3개 -> Install from VSIX를 클릭합니다.
+<img src="../images/env_extension_02.png"/>
+
+다운받았던 extension 파일을 선택 후 install을 클릭합니다.
+<img src="../images/env_extension_03.png"/>
+
+Tanzu Developer Tools이 설치되었는지 확인합니다.
+<img src="../images/env_extension_04.png"/>
 
 <br/><br/>
 환경 구성 Lab을 성공적으로 마치셨습니다.
