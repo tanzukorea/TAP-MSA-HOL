@@ -37,16 +37,16 @@ C 드라이브 아래에 Kube라는 디렉토리를 생성하고, 다운받은 K
 
 ### 4. Tanzu CLI 및 Kubectl 설치
 Windows 키를 눌러 Advanced System Setting을 검색합니다.<br/>
-![](../images/env_set_01.png){: width="30%" height="30%"}
+<img src="../images/env_set_01.png" width="50%" height="50%" />
 
 창 맨 아래의 Environment Variables를 클릭합니다.<br/>
-![](../images/env_set_02.png)
+<img src="../images/env_set_02.png" width="50%" height="50%" />
 
 Path를 선택 후 Edit을 클릭합니다.<br/>
-![](../images/env_set_03.png)
+<img src="../images/env_set_03.png" width="50%" height="50%" />
 
 NEW 클릭 -> C:\Tanzu 와 C:\Kube를 입력하고, OK 버튼을 클릭합니다. **처음에 열었던 Advanced System Setting 창이 닫힐 때 까지 OK를 클릭** 합니다.<br/>
-![](../images/env_set_04.png)
+<img src="../images/env_set_04.png" width="50%" height="50%" />
 
 cmd로 이동해 kubectl version을 입력해 kubectl 설치를 확인합니다.
 ![](../images/env_set_05.png)
