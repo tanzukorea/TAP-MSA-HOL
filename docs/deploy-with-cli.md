@@ -47,7 +47,7 @@ tanzu apps workload create tanzu-java-web-app-s1 \
 --yes
 ```
 
-![](../images/images/tap-01.png)
+![](../images/tap-01.png)
 위와 같은 출력이 나타나면 "y" 를 입력하고 계속해서 워크로드 생성을 진행합니다.
 
 
@@ -68,7 +68,7 @@ TAP에서 수행되는 모든 행위들은 pod 기반으로 작동됩니다. git
 kubectl get pod
 ```
 다음과 같은 화면이 출력될 것입니다.
-![](../images/images/tap-02.png)
+![](../images/tap-02.png)
 
 빌드 pod 안에서 구동되는 여러 컨테이너들이 순차적으로 작업을 수행하게 되고, 이 작업이 완료되기까지 약 5~10분 정도 소요됩니다. 
 
@@ -76,7 +76,7 @@ kubectl get pod
 ```cmd
 kubectl get pod
 ```
-![](../images/images/tap-03.png)
+![](../images/tap-03.png)
 
 워크로드가 실행될 애플리케이션 파드가 보이지 않습니다. TAP가 생성한 pod들은 knative (serverless) 기반이기 때문에, 실제 호출이 일어나지 않으면 pod가 생성되지 않습니다. 
 
@@ -85,13 +85,13 @@ kubectl get pod
 URL: http://tanzu-java-web-app-<span style="color: red">s1</span>.default.tap.tanzukorea.xyz/
 
 웹페이지는 아래와 같이 나타나게 됩니다.
-![](../images/images/tap-04.png)
+![](../images/tap-04.png)
 
 이제 pod를 조회하여 실제 애플리케이션 pod가 생성되었는지를 확인합니다.
 ```cmd
 kubectl get pod
 ```
-![](../images/images/tap-05.png)
+![](../images/tap-05.png)
 
 ### 4. 그 밖의 tanzu 명령어
 > 워크로드 삭제
