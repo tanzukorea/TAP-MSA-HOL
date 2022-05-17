@@ -112,9 +112,16 @@ Tanzu Developer Tools이 설치되었는지 확인합니다.
 
 
 ### 6. Tanzu Kubernetes Cluster 설치
-To Be Updated
+cmd 창에서 C:\Users\Administrator로 이동해 .kube 디렉토리를 생성합니다.
+```
+mkdir .kube
+```
+Downloads 폴더에 있는 config 파일을 방금 생성한 .kube 디렉토리로 이동시킵니다.
+![](../images/env_kubeconfig_01.png)
+
+kubectl cluster-info 커맨드를 실행해 cluster정보를 확인합니다. 이후 kubectl get ns를 확인해 설치된 네임스페이스 들을 확인합니다.
+![](../images/env_kubeconfig_02.png)
 
 <br/> <br/>
 
 환경 구성 Lab을 성공적으로 마치셨습니다.
-

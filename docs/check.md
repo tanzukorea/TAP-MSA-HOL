@@ -4,6 +4,7 @@
 * Tanzu CLI
 * kubectl CLI
 * VSCode IDE 및 TAP용 Plugin
+* Tanzu Kubernetes Cluster
 
 설치되지 않은 구성요소가 있을 경우, [환경 구성](docs/configure.md) 으로 이동합니다.
 
@@ -28,7 +29,10 @@ cmd에서 kubectl version을 입력해 kubectl 설치를 확인합니다.
 VSCode를 열어 extension에 Tanzu Developer Tools이 설치되었는지 확인합니다.
 <img src="../images/env_extension_04.png"/>
 
+### 5. Tanzu Kubernetes Cluster
+cmd에서 kubectl cluster-info 커맨드를 실행해 cluster정보를 확인합니다. 이후 kubectl get ns를 확인해 설치된 네임스페이스 들을 확인합니다.
+![](../images/env_kubeconfig_02.png)
 
-
+<br/><br/>
 실습 환경 체크 Lab을 성공적으로 마치셨습니다.
 
