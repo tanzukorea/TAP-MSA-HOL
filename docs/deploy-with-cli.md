@@ -85,7 +85,7 @@ kubectl get pod
 URL: http://tanzu-java-web-app-<span style="color: red">s1</span>.default.tap.tanzukorea.xyz/
 
 웹페이지는 아래와 같이 나타나게 됩니다.
-![](../images/tap-04.png){: width="80" height="80"}
+![](../images/tap-04.png)
 
 이제 pod를 조회하여 실제 애플리케이션 pod가 생성되었는지를 확인합니다.
 ```cmd
