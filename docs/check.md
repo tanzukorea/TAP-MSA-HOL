@@ -17,10 +17,15 @@ https://drive.google.com/drive/folders/1-z8_jvzTQd6FrGiGkFO5nyKsNA54l1ku 에서 
 **0. 파일 준비** 에서 받은 Tanzu CLI를 Windows 환경 변수에 추가하는 과정입니다.
 
 다운받은 Tanzu CLI 파일 **(tanzu-framework-windows-amd64)** 의 압축을 해제합니다. <br/>
-압축 해제 후 cli/core/v0.11.4 로 이동하면 tanzu-cre-windows_amd64 파일을 확인할 수 있습니다. <br/>
+
+C:\Program Files 아래에 Tanzu 라는 폴더를 생성합니다. <br/>
+압축을 해제한 후 생긴 cli 폴더를 이곳에 붙여넣기합니다. <br/>
+![](../images/env_set_folder.png)
+
+cli/core/v0.11.4 로 이동하면 tanzu-cre-windows_amd64 파일을 확인할 수 있습니다. <br/>
 ![](../images/env_cli_00.png)
 
-이 파일을 tanzu로 이름 변경 후 (추후 알기 쉽도록), C 드라이브 아래에 tanzu 라는 디렉토리를 생성하고 이곳으로 이동시킵니다.  <br/>
+이 파일을 tanzu로 이름 변경 후 (추후 알기 쉽도록), C 드라이브 아래에 tanzu 라는 디렉토리를 생성하고 이곳으로 복사합니다.  <br/>
 ![](../images/env_cli_01.png)
 <br/>
 
@@ -60,4 +65,13 @@ cmd로 이동해 kubectl version을 입력해 kubectl 설치를 확인합니다.
 
 
 #### 2) TAP용 Plugin 설치
+cli 폴더가 있는 C:\Program Files\Tanzu 로 이동해 다음 커맨드를 실행하면 필요한 cli가 설치됩니다. <br/>
+```
+tanzu plugin install --local cli all
+```
+아래 캡쳐와 같이 successfully installed 메시지를 확인합니다.
+![](../images/env_set_cli_all.png)
+
+<br/><br/>
+실습 환경 체크 Lab을 성공적으로 마치셨습니다.
 
