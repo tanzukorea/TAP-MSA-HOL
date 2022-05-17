@@ -5,6 +5,9 @@
 * kubectl CLI
 * VSCode IDE 및 TAP용 Plugin
 
+### 0. 파일 준비
+https://drive.google.com/drive/folders/1-z8_jvzTQd6FrGiGkFO5nyKsNA54l1ku 에서 필요한 파일들을 다운받습니다.
+
 ### 1. Putty 설치
 
 ### 2. Tanzu CLI 설치
