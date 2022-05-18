@@ -22,7 +22,7 @@
 * VS Code 및 TAP Plugin
 
 ## Hands-On 순서
-0. [실습 환경 체크](docs/check.md) 및 [환경 구성](docs/configure.md)
+0. [실습 환경을 위한 환경 구성](docs/configure.md)
 1. TAP 개요 및 앱 배포
    * [TAP를 이용해서 APP 배포하기](docs/deploy-with-cli.md)
    * [TAP GUI에서 배포된 워크로드 확인하기](docs/gui.md)
