@@ -51,10 +51,16 @@ Path를 선택 후 Edit을 클릭합니다.
 NEW 클릭 -> C:\Tanzu 와 C:\Kube를 입력하고, OK 버튼을 클릭합니다. **처음에 열었던 Advanced System Setting 창이 닫힐 때 까지 OK를 클릭** 합니다.<br/>
 <img src="../images/env_set_04.png" width="50%" height="50%" />
 
-cmd로 이동해 kubectl version을 입력해 kubectl 설치를 확인합니다.
+cmd로 이동해 kubectl version을 입력해 kubectl cli 설치를 확인합니다.
+```
+kubectl version --client
+```
 ![](../images/env_set_05.png)
 
 마찬가지로 cmd에서 tanzu version을 입력해 tanzu cli 설치를 확인합니다.
+```
+tanzu version
+```
 ![](../images/env_set_06.png)
 
 tanzu cli 설치를 마치기 위해, cli 폴더가 있는 C:\Program Files\Tanzu 로 이동합니다.
