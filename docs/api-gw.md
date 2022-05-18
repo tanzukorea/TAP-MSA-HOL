@@ -113,7 +113,8 @@ spec:
                   number: 80
 ```
 
-여기에서 host이름은 TKG에서 사용하는 도메인이 있는 경우에는 해당 도메인을 넣으시면 됩니다. Test로 하는 경우에는 가상으로 임의의 주소를 입력을 하고, client의 pc의 /etc/hosts 파일에 URL주소와 ingress로 생성되는 외부ip를 넣으시면 됩니다.
+여기에서 host이름은 TKG에서 사용하는 도메인이 있는 경우에는 해당 도메인을 넣으시면 됩니다. Test로 하는 경우에는 가상으로 임의의 주소를 입력을 하고, client의 pc의 /etc/hosts 파일에 URL주소와 ingress로 생성되는 외부ip를 넣으시면 됩니다. <br/>
+실제 등록은 **5. 서비스 확인하기** 에서 진행하겠습니다. 먼저 ingress 를 생성합니다.
 
 ```
 kubectl apply -f ingress.yaml
@@ -131,8 +132,12 @@ s1-gateway-ingress      <none>   s1-gateway.default.tap.tanzukorea.xyz   a580a8e
 ![](../images/api-gateway-02.png)
 해당 IP (18.136.155.243) 를 기록합니다.
 
-로컬 pc의 /etc/hosts 파일에 IP를 추가합니다.
+로컬 pc의 /etc/hosts 파일에 IP를 추가합니다. 
 ![](../images/api-gateway-01.png)
+
+* 참고 - /etc/hosts의 정확한 위치는 다음과 같습니다.
+/etc/hosts의 위치는 다음과 같습니다.
+![](../images/api-gateway-04.png)
 
 브라우저에서 http://s1-gateway.default.tap.tanzukorea.xyz/java로 호출해 연결을 확인합니다.
 ![](../images/api-gateway-03.png)
