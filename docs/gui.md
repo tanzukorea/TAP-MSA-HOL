@@ -8,8 +8,7 @@
 URL: http://tap-gui.tap.tanzukorea.xyz/
 
 최초 접속 화면은 다음과 같습니다. "Enter" 버튼을 클릭합니다.
-
-![](../images/gui-01.png)
+<img src="/images/gui-01.png" width="50%" height="50%" />
 
 ### 2. TAP GUI에서 워크로드 등록
 
