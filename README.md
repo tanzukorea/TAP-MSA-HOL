@@ -28,8 +28,8 @@
    * [TAP GUI에서 배포된 워크로드 확인하기](docs/gui.md)
    * [Spring Boot 앱의 Application Live View 확인하기](docs/alv.md)
 2. 개발 환경 개선을 위한 IDE 경험
-   * [IDE에서 앱 동적 배포하기](docs/deploy-in-ide.md)
-   * [원격 디버깅](docs/remote-debugging.md)
+   * IDE에서 앱 동적 배포하기
+   * 원격 디버깅
 3. MSA를 위한 아키텍처
 4. [API Gateway 연동](docs/api-gw.md)
 5. Supply Chain 개요 및 [파이프라인 추가](docs/scc.md)
