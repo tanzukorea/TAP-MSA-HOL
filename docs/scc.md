@@ -87,7 +87,7 @@ kubectl describe pipeline pipeline-s01
 ```
 apps.tanzu.vmware.com/has-tests: true
 ```
-![](../images/scc-10.png)
+<img src="../images/scc-10.png" width="50%" height="50%" />
 
 파일이 수정되었으면 워크로드를 생성하기 위해 다음 명령어를 수행하고, 수정한 옵션이 잘 적용되었는지 확인합니다.
 ```
