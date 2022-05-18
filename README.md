@@ -18,9 +18,8 @@
 ## Required Artifacts
 * 인터넷 접속 가능한 PC
 * 쿠버네티스 플랫폼 및 kubectl CLI
-* TAP 설치
+* Tanzu CLI
 * VS Code 및 TAP Plugin
-* SSH Terminal (windows Putty, macOS Terminal 등)
 
 ## Hands-On 순서
 0. [실습 환경 체크](docs/check.md) 및 [환경 구성](docs/configure.md)
