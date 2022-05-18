@@ -136,7 +136,6 @@ s1-gateway-ingress      <none>   s1-gateway.default.tap.tanzukorea.xyz   a580a8e
 ![](../images/api-gateway-01.png)
 
 * 참고 - /etc/hosts의 정확한 위치는 다음과 같습니다.
-/etc/hosts의 위치는 다음과 같습니다.
 ![](../images/api-gateway-04.png)
 
 브라우저에서 http://s1-gateway.default.tap.tanzukorea.xyz/java로 호출해 연결을 확인합니다.
