@@ -79,6 +79,9 @@ tanzu plugin list
 
 <br/>
 
+### 참고
+Windows 환경에서는 4번 Lab을 건너뛰고 5번으로 넘어갑니다. <br/><br/>
+
 ### 4. VSCode IDE 및 TAP용 Plugin 설치
 
 #### 1) VSCode IDE 설치
