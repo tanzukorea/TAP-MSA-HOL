@@ -12,7 +12,9 @@
 * workload 파일을 이용하여 생성
 
 여기서는 workload 파일을 작성하여 워크로드를 생성하는 방법으로 랩을 진행합니다.
-앱 소스는 git에서 가져온다고 가정하고, 다음과 같이 workload.yaml 파일을 생성합니다. 실습생들끼리 워크로드가 섞이지 않도록 워크로드 명을 주의해서 작성합니다.
+앱 소스는 git에서 가져온다고 가정하고, 다음과 같이 workload.yaml 파일을 생성합니다. 
+<br/>
+**주의 : 아래 spring cloud gateway의 설정 중 숫자가 들어가는 부분은 본인이 할당받은 id 숫자를 사용합니다. 실습생들끼리 워크로드가 섞이지 않도록 워크로드 명을 주의해서 작성합니다.** <br/>
 
 ```yaml
 apiVersion: carto.run/v1alpha1
@@ -37,7 +39,10 @@ spec:
 tanzu apps workload apply -f workload.yaml
 ```
 
-> 워크로드를 CLI를 이용해서 생성하고 싶은 경우 아래와 같은 명령어를 사용하시면 됩니다. 아래 명령어는 위에서 작성한 workload.yaml 파일을 실행했을 때와 동일한 앱을 생성하는 명령어 입니다. (워크로드 명 확인)
+> 워크로드를 CLI를 이용해서 생성하고 싶은 경우 아래와 같은 명령어를 사용하시면 됩니다. 아래 명령어는 위에서 작성한 workload.yaml 파일을 실행했을 때와 동일한 앱을 생성하는 명령어 입니다. (워크로드 명 확인) <br/>
+<br/>
+
+**주의 : 아래 spring cloud gateway의 설정 중 숫자가 들어가는 부분은 본인이 할당받은 id 숫자를 사용합니다. 실습생들끼리 워크로드가 섞이지 않도록 워크로드 명을 주의해서 작성합니다.**
 
 ```cmd
 tanzu apps workload create tanzu-java-web-app-s1 \
