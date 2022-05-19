@@ -15,6 +15,9 @@ TAP GUI에 접속하고 아래와 같이 좌측의 워크로드 메뉴를 클릭
 ### 2. 워크로드 삭제
 
 이제 새로운 워크로드의 파이프라인을 적용하기 위해 다음의 명령어를 사용하여 기존 워크로드를 삭제합니다. 다음 두 명령어 중 한 가지 명령어를 사용하여 워크로드를 삭제할 수 있습니다.
+<br/>
+**주의 : tanzu-java-web-app-s1에서 마지막 숫자에는 본인이 할당받은 id 숫자를 사용합니다. 실습생들끼리 워크로드가 섞이지 않도록 워크로드 명을 주의해서 작성합니다.** <br/>
+
 ```
 tanzu apps workload delete -f workload.yaml
 ```
@@ -37,7 +40,7 @@ tanzu apps workload list
 kubectl get pipeline
 ```
 
-파이프라인이 존재하지 않음을 확인하고, 신규 파이프라인을 작성합니다. 먼저 pipeline.yaml이라는 파일 이름은 파일을 생성하고 다음과 같이 입력해 줍니다. 파이프라인 명 역시 자신의 s# 번호에 유의하여 지정해 줍니다.
+파이프라인이 존재하지 않음을 확인하고, 신규 파이프라인을 작성합니다. 먼저 pipeline.yaml이라는 파일 이름은 파일을 생성하고 다음과 같이 입력해 줍니다. **파이프라인 명 역시 자신의 s# 번호에 유의하여 지정해 줍니다.**
 ```
 apiVersion: tekton.dev/v1beta1
 kind: Pipeline
@@ -109,6 +112,8 @@ kubectl get pod
 ```
 
 Pod 명을 확인하고 다음 명령어를 사용해서 해당 테스트 Pod의 로그를 확인합니다.
+<br/>
+**주의 : tanzu-java-web-app-s1에서 마지막 숫자에는 본인이 할당받은 id 숫자를 사용합니다. 실습생들끼리 워크로드가 섞이지 않도록 워크로드 명을 주의해서 작성합니다.** <br/>
 ```
 kubectl logs tanzu-java-web-app-s1-zbqx9-test-pod
 ```
