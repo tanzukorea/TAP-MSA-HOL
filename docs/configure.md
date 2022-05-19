@@ -45,6 +45,7 @@ Windows 키를 눌러 Advanced System Setting을 검색합니다.
 
 <img src="../images/env_set_02.png" width="50%" height="50%" />
 
+<br/>
 Path를 선택 후 Edit을 클릭합니다.
 <img src="../images/env_set_03.png" width="50%" height="50%" />
 
