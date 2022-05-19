@@ -7,7 +7,7 @@ Gateway - Mapping - RouteConfig
 
 전체적인 아키텍처 구성은 아래와 같습니다.
 
-![](../images/scg_architecture.png)
+![](../images/scg-overall.png)
 
 
 ### 0. 시작 전 주의사항
