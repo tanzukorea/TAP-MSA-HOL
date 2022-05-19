@@ -11,7 +11,7 @@ Gateway - Mapping - RouteConfig
 
 
 ### 0. 시작 전 주의사항
-**아래 spring cloud gateway의 설정 중 숫자가 들어가는 부분은 본인이 할당받은 id 숫자를 사용합니다. 실습생들끼리 워크로드가 섞이지 않도록 워크로드 명을 주의해서 작성합니다.** <br/>
+**주의 : 아래 spring cloud gateway의 설정 중 숫자가 들어가는 부분은 본인이 할당받은 id 숫자를 사용합니다. 실습생들끼리 워크로드가 섞이지 않도록 워크로드 명을 주의해서 작성합니다.** <br/>
 
 
 ### 1. Gateway 생성하기
@@ -19,7 +19,7 @@ Gateway - Mapping - RouteConfig
 Gateway 를 생성하기 위해 아래의 내용으로 파일을 하나 생성합니다.
 spec이하의 내용은 테스트 용도로 리소스를 적게 사용하기 위해 설정한 것으로 실제 운영을 위해서는 충분한 메모리와 cpu를 할당하는 것을 권고합니다. 아무것도 설정하지 않은 default 값의 경우에는 (요청: 1 cpu/1GB, 최대: 2 cpu/2GB) 로 설정됩니다.
 
-**아래 spring cloud gateway의 설정 중 숫자가 들어가는 부분은 본인이 할당받은 id 숫자를 사용합니다. 실습생들끼리 워크로드가 섞이지 않도록 워크로드 명을 주의해서 작성합니다.** <br/>
+**주의 : 아래 spring cloud gateway의 설정 중 숫자가 들어가는 부분은 본인이 할당받은 id 숫자를 사용합니다. 실습생들끼리 워크로드가 섞이지 않도록 워크로드 명을 주의해서 작성합니다.** <br/>
 
 scg-gateway.yaml 
 ```
@@ -49,7 +49,7 @@ routing 설정이 들어가는 가장 핵심적인 부분으로 CRD(Custom Resou
 아래의 설정은 /java/로 요청을 하게 되면 기존에 생성한 내부 서비스의 이름을 직접 넣어서 routing을 해주게 됩니다.
 외부 URL로도 연동이 가능합니다.
 
-**아래 spring cloud gateway의 설정 중 숫자가 들어가는 부분은 본인이 할당받은 id 숫자를 사용합니다. 실습생들끼리 워크로드가 섞이지 않도록 워크로드 명을 주의해서 작성합니다.** <br/>
+**주의 : 아래 spring cloud gateway의 설정 중 숫자가 들어가는 부분은 본인이 할당받은 id 숫자를 사용합니다. 실습생들끼리 워크로드가 섞이지 않도록 워크로드 명을 주의해서 작성합니다.** <br/>
 
 ```
 apiVersion: "tanzu.vmware.com/v1"
@@ -74,7 +74,7 @@ kubectl apply -f route-config.yaml
 이제 위에서 만든 route-config와 gateway를 연결하는 mapping설정을 하면 됩니다.
 아래의 내용으로 mapping.yaml을 생성합니다.
 
-**아래 spring cloud gateway의 설정 중 숫자가 들어가는 부분은 본인이 할당받은 id 숫자를 사용합니다. 실습생들끼리 워크로드가 섞이지 않도록 워크로드 명을 주의해서 작성합니다.** <br/>
+**주의 : 아래 spring cloud gateway의 설정 중 숫자가 들어가는 부분은 본인이 할당받은 id 숫자를 사용합니다. 실습생들끼리 워크로드가 섞이지 않도록 워크로드 명을 주의해서 작성합니다.** <br/>
 
 ```
 apiVersion: "tanzu.vmware.com/v1"
@@ -99,7 +99,7 @@ TKG에서는 Contour를 기본적으로 사용하므로 Contour를 사용하는 
 
 ingress.yaml 설정을 아래와 같이 합니다.
 
-**아래 spring cloud gateway의 설정 중 숫자가 들어가는 부분은 본인이 할당받은 id 숫자를 사용합니다. 실습생들끼리 워크로드가 섞이지 않도록 워크로드 명을 주의해서 작성합니다.** <br/>
+**주의 : 아래 spring cloud gateway의 설정 중 숫자가 들어가는 부분은 본인이 할당받은 id 숫자를 사용합니다. 실습생들끼리 워크로드가 섞이지 않도록 워크로드 명을 주의해서 작성합니다.** <br/>
 ```
 apiVersion: networking.k8s.io/v1
 kind: Ingress
