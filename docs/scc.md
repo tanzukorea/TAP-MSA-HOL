@@ -112,8 +112,6 @@ kubectl get pod
 ```
 
 Pod 명을 확인하고 다음 명령어를 사용해서 해당 테스트 Pod의 로그를 확인합니다.
-<br/>
-**주의 : tanzu-java-web-app-s1에서 마지막 숫자에는 본인이 할당받은 id 숫자를 사용합니다. 실습생들끼리 워크로드가 섞이지 않도록 워크로드 명을 주의해서 작성합니다.** <br/>
 ```
 kubectl logs tanzu-java-web-app-s1-zbqx9-test-pod
 ```
