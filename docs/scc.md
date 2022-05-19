@@ -42,7 +42,7 @@ kubectl get pipeline
 apiVersion: tekton.dev/v1beta1
 kind: Pipeline
 metadata:
-  name: pipeline-s1
+  name: pipeline-s01
   labels:
     apps.tanzu.vmware.com/pipeline: test     # (!) required
 spec:
