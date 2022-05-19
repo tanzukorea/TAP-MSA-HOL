@@ -1,14 +1,10 @@
 ## Spring Cloud Gateway 구성하기
 SCG (Spring Cloud Gateway)는 Engine역할을 하는 Operator가 설치가 되고, Gateway별로 인스턴스를 만들 수 있습니다.
-
 SCG는 3개의 구성요소로 되어 있는데, 실제 Routing설정은 RouteConfig에 들어가 있고, Mapping은 Gateway 인스턴스와의 연결 설정이 들어 있습니다.
-
 Gateway - Mapping - RouteConfig
-
 전체적인 아키텍처 구성은 아래와 같습니다.
 
 ![](../images/scg-overall.png)
-
 
 ### 0. 시작 전 주의사항
 **주의 : 아래 spring cloud gateway의 설정 중 숫자가 들어가는 부분은 본인이 할당받은 id 숫자를 사용합니다. 실습생들끼리 워크로드가 섞이지 않도록 워크로드 명을 주의해서 작성합니다.** <br/>
