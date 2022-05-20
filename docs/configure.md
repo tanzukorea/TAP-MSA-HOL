@@ -3,7 +3,6 @@
 
 * Tanzu CLI
 * kubectl CLI
-* VSCode IDE 및 TAP용 Plugin
 * Tanzu Kubernetes Cluster
 
 ***참고 : 본 Lab은 Windows OS 기준으로 진행됩니다.**
