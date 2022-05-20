@@ -125,24 +125,16 @@ kubectl apply -f ingress.yaml
 ```
 
 ### 5. 서비스 확인하기
-생성된 ingress의 ip를 확인합니다.
+생성된 ingress의 Host 주소 및 Address를 확인합니다.
 ```
 $ kubectl get ingress
 NAME                    CLASS    HOSTS                                   ADDRESS                                                                              PORTS   AGE
 s1-gateway-ingress      <none>   s1-gateway.default.tap.tanzukorea.xyz   a580a8e15ab664eb7a07373309b3b91e-d5835d6b28568547.elb.ap-southeast-1.amazonaws.com   80      30s
 ```
 
-이 ingress address에 해당하는 실제 IP는 cmd에서 nslookup을 통해 조회합니다. 
-![](../images/api-gateway-02.png)
-해당 IP (18.136.155.243) 를 기록합니다.
 
-로컬 pc의 /etc/hosts 파일에 IP를 추가합니다. <br/>
-![](../images/api-gateway-01.png)
-
-* 참고 - /etc/hosts의 정확한 위치는 다음과 같습니다.
-![](../images/api-gateway-04.png)
-
-브라우저에서 http://s1-gateway.default.tap.tanzukorea.xyz/java  로 호출해 연결을 확인합니다.
+브라우저에서 http://s1-gateway.default.tap.tanzukorea.xyz/java  로 호출해 연결을 확인합니다. **주소의 숫자에는 본인의 id를 사용합니다**
+<br/>
 ![](../images/api-gateway-03.png)
 
 <br/><br/>
