@@ -1,4 +1,4 @@
-# TAP-HOL
+# TAP-MSA-HOL
 
  (VMware Tanzu Application Platform Hands-On-Lab)
  ![](images/tanzu_hol_header_logo.png)
